@@ -1,0 +1,56 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#container{
+	/*width: 960px;*/
+	height: 800px;
+	margin: 0px auto;
+	background-image: url("/assets/img/twins.jpg");
+	background-repeat: no-repeat;
+}
+	.forms{
+		display: inline-block;
+		vertical-align: top;
+	}
+	#login{
+		margin: 70px 0px 0px 550px;
+	}
+	#register{
+		margin: 330px -300px;
+	}
+		fieldset{
+			padding: 20px 25px;
+			display: inline-block;
+			background: rgba(243,242,240,0.6);
+			border: solid #BBC0C8 1px;
+		}
+			legend{
+				font-family: sans-serif;
+				font-size: 20px;
+				font-weight: lighter;
+				padding: 10px;
+			}
+				.red{
+					color: black;	
+					font-size: 17px;
+					font-weight: lighter; 
+				}
+				.green{
+					color: black;
+				}
+				input{
+					display: block;
+					margin: 10px 15px;
+					width: 200px;
+					font-size: 17px;
+					font-weight: lighter;
+					padding: 5px;
+					background: rgba(248, 249, 250, 0.7);
+				}
+				.button{
+					background-color: #758fb5;
+					padding: 5px 15px;
+					color: white;
+					margin-left: 70px;
+				}

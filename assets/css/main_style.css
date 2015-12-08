@@ -1,0 +1,17 @@
+#artCase {
+	width: 1120px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.artBox {
+	width:250px;
+	height: 250px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.artBox>img {
+	max-width: 100%;
+	max-height: 100%;
+}
